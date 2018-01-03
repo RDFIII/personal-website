@@ -1,0 +1,64 @@
+/*General Styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+html {
+  font: normal 16px sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Header and Nav Styles*/
+
+header {
+  color: white;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  justify-content: space-between;
+  padding: 35px 100px 35px;
+  animation: 1s fadein 0.5s forwards;
+}
+
+@keyframes fadein {
+  100% {
+    opacity: 1;
+  }
+}
+
+header h2 {
+  background-color: black;
+  font-family: "Quicksand", sans-serif;
+}
+
+header nav {
+  display: flex;
+  margin-right: -15px;
+}
+
+nav {
+  background-color: black;
+  list-style: none;
+}
+
+header nav li {
+  margin: 0 15px;
+}
+
+header nav li a {
+  color: white;
+  background-color: black;
+}
