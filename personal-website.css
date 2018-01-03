@@ -55,10 +55,12 @@ nav {
 }
 
 header nav li {
-  margin: 0 15px;
+  margin: 0 40px;
 }
 
 header nav li a {
   color: white;
   background-color: black;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
 }
